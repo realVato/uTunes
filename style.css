@@ -65,13 +65,36 @@ body {
   /*Gift cards*/
 
   #gift-cards .container {
-    margin-top: 10vh;
+    margin: 10vh 0px;
   }
 
   .gift-cards {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
+  }
+
+  /*Footer*/
+
+  #footer {
+    background-color: var(--secondary-color);
+  }
+
+  #footer .section {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #footer .section a {
+    color: var(--primary-color);
+  }
+
+  #footer .copyright {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
   }
 
   /*Typography*/
