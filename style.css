@@ -186,6 +186,10 @@ body {
   
   @media screen and (max-width: 625px) {
 
+    .entertainment-section {
+      padding-top: 30vh;
+    }
+
     .gift-cards {
       display: grid;
       grid-gap: 20px;
@@ -231,8 +235,8 @@ body {
       height: 30px;
       display: inline-block;
       position: absolute;
-      right: 5px;
-      top: 20px;
+      right: 45px;
+      top: 24px;
     }
     nav a#openup {
       display: block;
@@ -264,6 +268,88 @@ body {
       left: 100px;
     }
   }
+
+  /* Landscape */
+
+  @media screen and (max-height: 580px) {
+
+    .hide-on-small {
+      display: none;
+    }
+
+    .main-section .container {
+      margin-top: -4rem;
+    }
+
+    .entertainment-section {
+      padding-top: 30vh;
+    }
+
+    .gift-cards {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 1fr;
+      padding: 0px 20px;
+    }
+
+    nav {
+      height: auto;
+      border-bottom: 0;
+    }
+    nav ul {
+      display: none;
+      height: auto;
+    }
+    nav li {
+      width: 100%;
+      float: left;
+      position: relative;
+    }
+    nav a {
+      text-align: left;
+      width: 100%;
+      text-indent: 25px;
+      background: #333;
+      left: 200px;
+    }
+    nav a:hover {
+      background: #444;
+    }
+    nav a#openup:after {
+      content: "|||";
+      transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      /* IE 9 */
+      -webkit-transform: rotate(-90deg);
+      /* Safari and Chrome */
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      right: 45px;
+      top: 24px;
+    }
+    nav a#openup {
+      display: block;
+      background-color: #333;
+      width: 100%;
+      position: relative;
+      
+    }
+  }
+  .cf:before, .cf:after {
+    content: "";
+    display: table;
+  }
+  
+  .cf:after {
+    clear: both;
+  }
+  
+  .cf {
+    zoom: 1;
+  }
+  
   
   
   
