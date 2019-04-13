@@ -1,7 +1,14 @@
 
+/*CSS Variables*/
+
+:root {
+  --primary-color: #ccc;
+  --secondary-color: #0d0d0d;
+}
+
 body {
     font-family: 'PT Sans Caption', sans-serif;
-    background-color: #ccc;
+    background-color: var(--primary-color);
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -9,7 +16,7 @@ body {
   
   a {
     text-decoration: none;
-    color: #ccc;
+    color: var(--primary-color);
   }
 
 
@@ -26,7 +33,7 @@ body {
   }
 
   .main-section {
-    color: #ccc;
+    color: var(--primary-color);
     text-align: center;
     padding: 0px 10px;
     margin-top: 20vh;
@@ -35,7 +42,7 @@ body {
   /*Music*/
 
   #music {
-    color: #0d0d0d;
+    color: var(--secondary-color);
     width: 100%;
     text-align: center;
     max-width: 1180px;
@@ -47,7 +54,7 @@ body {
   }
 
   .lm-anchor {
-    color: #0d0d0d;
+    color: var(--secondary-color);
   }
 
   .lm-anchor:hover {
@@ -78,20 +85,20 @@ body {
   /*Button*/
 
   .btn {
-    color: #ccc;
+    color: var(--primary-color);
     font-size: 1.1rem;
-  }
-
-  .btn:hover {
-    color: #999;
   }
 
   .btn-bg {
     height: 50px;
     background-color: #ff3333;
     display: inline-block;
-    line-height: 55px;
+    line-height: 50px;
     padding: 0px 10px;
+  }
+
+  .btn-bg:hover {
+    background-color: var(--secondary-color);
   }
 
   /*Navigation bar*/
