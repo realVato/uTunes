@@ -19,7 +19,6 @@ body {
     color: var(--primary-color);
   }
 
-
   img {
     width: 100%;
   }
@@ -49,19 +48,19 @@ body {
     margin: 0 auto;
   }
 
-  .learn-more {
-    padding-top: 20px;
+  #entertainment {
+    background: url(img/section-bg.jpg) no-repeat bottom/cover fixed;
+    width: 100%;
+    height: 100vh;
   }
 
-  .lm-anchor {
-    color: var(--secondary-color);
+  .entertainment-section {
+    color: var(--primary-color);
+    text-align: center;
+    padding: 40vh 20px 0px 20px;
   }
 
-  .lm-anchor:hover {
-    text-decoration: underline;
-  }
 
-  
   /*Typography*/
   .container h1 {
     font-size: 4rem;
@@ -99,6 +98,20 @@ body {
 
   .btn-bg:hover {
     background-color: var(--secondary-color);
+  }
+
+  /*Learn more links*/
+
+  .learn-more {
+    padding-top: 20px;
+  }
+
+  .lm-anchor {
+    color: var(--secondary-color);
+  }
+
+  .lm-anchor:hover {
+    text-decoration: underline;
   }
 
   /*Navigation bar*/
