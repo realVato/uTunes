@@ -21,20 +21,45 @@ $(function() {
 });
 
 // Smooth Scrolling
-$('.cf a').on('click', function(event) {
-  if (this.hash !== '') {
-    event.preventDefault();
+function smoothScroll() {
+  $('.cf a').on('click', function(event) {
+    if (this.hash !== '') {
+      event.preventDefault();
+  
+      const hash = this.hash;
+  
+      $('html, body').animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
+    }
+  });
+}
+  
 
-    const hash = this.hash;
 
-    $('html, body').animate(
-      {
-        scrollTop: $(hash).offset().top
-      },
-      800,
-      function() {
-        window.location.hash = hash;
-      }
-    );
+// #Entertainment, button toggle
+
+$(function(){
+
+  $('.btn-toggle').on('click', function() {
+    $('.hide-on-toggle').fadeToggle(350);
+  })
+
+});
+
+// Back to the top button
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 50 ) {
+      $('#myBtn').fadeIn(200);
+  } else {
+      $('#myBtn').fadeOut(200);
   }
 });
+$(function(){$("#myBtn").click(function(){$("html,body").animate({scrollTop:$("#showcase").offset().top},"1000");return false})})
