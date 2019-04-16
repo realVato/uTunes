@@ -56,10 +56,17 @@ $(function(){
 // Back to the top button
 
 $(window).scroll(function() {
+
+  // While scrolling, button briefly disappears
+  if (window.matchMedia("(max-width: 9000px)").matches) {
+    $('#myBtn').hide();
+  }
+
   if ($(this).scrollTop() > 50 ) {
       $('#myBtn').fadeIn(200);
   } else {
       $('#myBtn').fadeOut(200);
   }
 });
-$(function(){$("#myBtn").click(function(){$("html,body").animate({scrollTop:$("#showcase").offset().top},1000);return false})})
+$(function(){$("#myBtn").click(function(){$("html,body").animate({scrollTop:$("#showcase").offset().top},1000);return false})});
+
