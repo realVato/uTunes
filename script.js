@@ -1,4 +1,5 @@
 // Nav bar
+
 $(function() {
 	menu = $('nav ul');
 
@@ -21,7 +22,7 @@ $(function() {
 });
 
 // Smooth Scrolling
-function smoothScroll() {
+
   $('.cf a').on('click', function(event) {
     if (this.hash !== '') {
       event.preventDefault();
@@ -39,7 +40,6 @@ function smoothScroll() {
       );
     }
   });
-}
   
 
 
@@ -62,4 +62,4 @@ $(window).scroll(function() {
       $('#myBtn').fadeOut(200);
   }
 });
-$(function(){$("#myBtn").click(function(){$("html,body").animate({scrollTop:$("#showcase").offset().top},"1000");return false})})
+$(function(){$("#myBtn").click(function(){$("html,body").animate({scrollTop:$("#showcase").offset().top},1000);return false})})
