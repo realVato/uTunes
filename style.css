@@ -13,7 +13,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    
   }
   
   a {
@@ -242,14 +241,17 @@ body {
     .btn-toggle {
       display: none;
     }
-
   }
 
   @media screen and (max-width: 780px) {
 
     nav a {
       margin: 0px 10px;
-      
+    
+    }
+
+    #myBtn {
+      bottom: 80px;
     }
   }
   
@@ -320,6 +322,8 @@ body {
       position: relative;
       
     }
+
+    
   }
   .cf:before, .cf:after {
     content: "";
@@ -342,6 +346,8 @@ body {
       background: #333;
       left: 100px;
     }
+
+    
   }
 
   /* Landscape */
