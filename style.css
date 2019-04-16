@@ -122,6 +122,11 @@ body {
     padding: 10px 0px;
   }
 
+  #footer .github:hover {
+    text-decoration: underline;
+    color: rgb(87, 85, 85);
+  }
+
   /*Typography*/
   .container h1 {
     font-size: 4rem;
