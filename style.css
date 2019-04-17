@@ -9,7 +9,6 @@
 
 body {
     font-family: 'PT Sans Caption', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
     background-color: var(--primary-color);
     margin: 0;
     padding: 0;
@@ -136,11 +135,34 @@ body {
   }
 
   #songs-trial {
+    overflow: hidden;
     max-width: 1180px;
     margin: auto;
     text-align: center;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  /* Music learn more page */
+
+  #songs-learn-more {
+    background-color: #fff;
+    overflow: hidden;
+    height: 93vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #songs-learn-more .trial-section .container {
+    margin-top: -200px;
+  }
+  
+  #songs-learn-more .trial-section .container div h1{
+    font-size: 80px;
+    margin: 0;
+    line-height: 6.5rem;
   }
 
 
