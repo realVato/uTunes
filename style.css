@@ -114,17 +114,7 @@ body {
     color: var(--primary-color);
   }
 
-  #footer .copyright {
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0px;
-  }
-
-  #footer .github:hover {
-    text-decoration: underline;
-    color: rgb(87, 85, 85);
-  }
+  
 
 /* Music-trial page ============================================== */
 
@@ -230,6 +220,20 @@ body {
 
   .lm-anchor:hover {
     text-decoration: underline;
+  }
+
+  /* Copyright */
+
+  .copyright {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  .github:hover {
+    text-decoration: underline;
+    color: rgb(87, 85, 85);
   }
 
   /*Navigation bar*/
