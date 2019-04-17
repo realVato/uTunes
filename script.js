@@ -43,7 +43,7 @@ $(function() {
   
 
 
-// #Entertainment, button toggle
+// #Entertainment, button toggle (mQuery)
 
 $(function(){
 
@@ -57,7 +57,7 @@ $(function(){
 
 $(window).scroll(function() {
 
-  // While scrolling, button briefly disappears
+  // Button disappears while scrolling
   if (window.matchMedia("(max-width: 9000px)").matches) {
     $('#myBtn').hide();
   }
@@ -68,5 +68,5 @@ $(window).scroll(function() {
       $('#myBtn').fadeOut(200);
   }
 });
-$(function(){$("#myBtn").click(function(){$("html,body").animate({scrollTop:$("#showcase").offset().top},1000);return false})});
+$(function(){$("#myBtn").click(function(){$("html,body").animate({scrollTop:$("#showcase").offset().top},1000);})});
 
