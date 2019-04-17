@@ -208,6 +208,39 @@ body {
   }
 
 
+  /* Gift-cards redeem page */
+
+  #card-redeem {
+    width: 100%;
+    height: 100vh;
+    background: url(img/redeem.jpg) no-repeat center/cover fixed;
+    overflow: hidden;
+  }
+
+  #card-redeem .container {
+    width: 80%;
+    color: #000;
+    margin: auto;
+  }
+
+  #card-redeem .container hr {
+    height: 2px;
+    border: 0;
+    background-color: #000;
+  }
+
+
+  #card-redeem .container h3 {
+    margin: 0;
+  }
+
+  #card-redeem .container .cards {
+    padding-top: 20vh;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
   /*Typography*/
   .container h1 {
     font-size: 4rem;
@@ -495,6 +528,14 @@ body {
       font-size: 1rem;
     }
 
+    #card-redeem .container h3{
+      text-align: center;
+    }
+
+    #card-redeem .container .cards {
+      padding-top: 0;
+    }
+
   }
 
   
@@ -539,6 +580,14 @@ body {
       grid-gap: 20px;
       grid-template-columns: 1fr;
       padding: 0px 20px;
+    }
+
+    #card-redeem .container h3{
+      text-align: center;
+    }
+
+    #card-redeem .container .cards {
+      padding-top: 0;
     }
 
     #myBtn {
