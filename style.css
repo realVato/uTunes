@@ -296,7 +296,8 @@ body {
     }
 
     #myBtn {
-      bottom: 80px;
+      bottom: -200px;
+      right: -400px;
     }
   }
   
@@ -388,11 +389,19 @@ body {
     zoom: 1;
   }
 
+  @media screen and (max-width: 375px) {
+
+    #airPods h2 {
+      font-size: 1rem;
+    }
+
+  }
+
   
 
   /* Landscape -------------------------------------------------------------------*/ 
 
-  @media screen and (max-height: 580px) {
+  @media screen and (max-height: 375px) {
 
     .hide-on-small {
       display: none;
@@ -411,11 +420,21 @@ body {
       padding-top: 30vh;
     }
 
+    .gift-cards h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
+
     .gift-cards {
       display: grid;
       grid-gap: 20px;
       grid-template-columns: 1fr;
       padding: 0px 20px;
+    }
+
+    #myBtn {
+      bottom: -200px;
+      right: -400px;
     }
 
     nav {
@@ -476,6 +495,21 @@ body {
     zoom: 1;
   }
   
+
+  @media screen and (max-height: 350px) {
+
+    #airPods .container {
+
+      margin-left: 0;
+      padding-top: 10px;
+
+    }
+
+    .btn-toggle {
+      display: none;
+    }
+
+  }
   
   
   
