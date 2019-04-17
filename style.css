@@ -9,6 +9,7 @@
 
 body {
     font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     background-color: var(--primary-color);
     margin: 0;
     padding: 0;
@@ -43,7 +44,6 @@ body {
 
   #music {
     color: var(--secondary-color);
-    width: 100%;
     text-align: center;
     max-width: 1180px;
     margin: 0 auto;
@@ -126,10 +126,42 @@ body {
     color: rgb(87, 85, 85);
   }
 
+/* Music-trial page ============================================== */
+
+/* fixed navbar */
+  .fixed {
+    position: fixed;
+  }
+
+  #music-free-trial {
+    width: 100%;
+    background-color: #fff;
+  }
+
+  #music-free-trial .trial-section {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5vh;
+  }
+
+  #songs-trial {
+    max-width: 1180px;
+    margin: auto;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
   /*Typography*/
   .container h1 {
     font-size: 4rem;
     margin-bottom: 0;
+  }
+
+  .container h2 {
+    font-size: 3.5rem;
   }
 
   .container h3 {
@@ -235,7 +267,7 @@ body {
     display: none;
   }
 
-  /* Media query */
+  /* Media query ---------------------------------------------------------------------------------------*/
 
   @media screen and (min-width: 780px) {
     .btn-toggle {
@@ -247,7 +279,6 @@ body {
 
     nav a {
       margin: 0px 10px;
-    
     }
 
     #myBtn {
@@ -350,7 +381,7 @@ body {
     
   }
 
-  /* Landscape */
+  /* Landscape -------------------------------------------------------------------*/ 
 
   @media screen and (max-height: 580px) {
 
