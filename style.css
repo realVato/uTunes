@@ -296,6 +296,7 @@ body {
   /* Media query ---------------------------------------------------------------------------------------*/
 
   @media screen and (min-width: 780px) {
+
     .btn-toggle {
       display: none;
     }
@@ -312,6 +313,15 @@ body {
   }
 
   @media screen and (max-width: 780px) {
+
+    #songs-learn-more .trial-section .container {
+      margin: 0;
+    }
+
+    #songs-learn-more .trial-section .container div h1 {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
 
     nav a {
       margin: 0px 10px;
@@ -424,6 +434,15 @@ body {
   /* Landscape -------------------------------------------------------------------*/ 
 
   @media screen and (max-height: 375px) {
+
+    #songs-learn-more .trial-section .container {
+      margin: 0 0 10px 0;
+    }
+
+    #songs-learn-more .trial-section .container div h1 {
+      font-size: 2rem;
+      line-height: 1.5;
+    }
 
     .hide-on-small {
       display: none;
