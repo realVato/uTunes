@@ -167,20 +167,20 @@ body {
     background: url(img/airpods2.jpg) no-repeat center/cover;
   }
 
-  #airPods-learn-more .container .text-inner div:nth-child(odd) {
+  #airPods-learn-more .container .text div:nth-child(odd) {
     padding-bottom: 20px;
   }
 
-  #airPods-learn-more .container .text-inner div:nth-child(even) {
+  #airPods-learn-more .container .text div:nth-child(even) {
     padding-bottom: 60px;
   }
 
-  #airPods-learn-more .container .text-inner .grid-items-3 {
+  #airPods-learn-more .container .text .grid-items-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  #airPods-learn-more .container .text-inner .grid-items-3 div h3 {
+  #airPods-learn-more .container .text .grid-items-3 div h3 {
     margin: 0;
   }
 
@@ -493,7 +493,7 @@ body {
       display: none;
     }
 
-    #airPods-learn-more .container .text-inner .grid-items-3 {
+    #airPods-learn-more .container .text .grid-items-3 {
       grid-template-columns: 1fr;
     }
 
