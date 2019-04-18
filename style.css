@@ -142,29 +142,6 @@ body {
     padding-right: 2rem;
   }
 
-  /* Music learn more page */
-
-  #songs-learn-more {
-    background-color: #fff;
-    overflow: hidden;
-    height: 94.2vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #songs-learn-more .trial-section .container {
-    margin-top: -200px;
-  }
-  
-  #songs-learn-more .trial-section .container div h1{
-    font-size: 80px;
-    margin: 0;
-    line-height: 6.5rem;
-  }
-
-
   /* airPods learn more page  */
 
 
